@@ -1,0 +1,27 @@
+{
+  "name": "aplikasih_autisme",
+  "version": "1.0.0",
+  "description": "Website ini adalah alat skrining berbasis web untuk **Modified Checklist for Autism in Toddlers, Revised with Follow-Up (M-CHAT-R/F)**.  Aplikasi ini memungkinkan orang tua mengisi kuisioner M-CHAT-R secara online dan mendapatkan hasil skoring langsung.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@headlessui/react": "^1.7.18",
+    "@heroicons/react": "^2.1.1",
+    "autoprefixer": "^10.4.17",
+    "next": "^14.1.0",
+    "postcss": "^8.4.35",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.17"
+  }
+}
