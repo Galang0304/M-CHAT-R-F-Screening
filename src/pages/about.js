@@ -92,7 +92,7 @@ export default function About() {
                     </div>
                     <div className="text-center md:text-left">
                       <h3 className="text-lg font-semibold text-gray-800">Kemenkes Poltekkes Makassar</h3>
-                      <p className="text-gray-600">Program Studi D-IV Keperawatan</p>
+                      <p className="text-gray-600">Program Studi D-III Keperawatan</p>
                     </div>
                   </div>
                   
