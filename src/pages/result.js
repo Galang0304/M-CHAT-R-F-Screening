@@ -34,26 +34,26 @@ const getRiskExplanation = (risk, score) => {
     case 'low':
       return {
         title: 'Risiko Rendah (Skor 0-2)',
-        explanation: 'Jika anak lebih muda dari 24 bulan, lakukan skrining lagi setelah ulang tahun kedua. Tidak ada tindakan lanjutan yang diperlukan, kecuali surveilans untuk mengindikasikan risiko ASD.',
-        note: 'Tetap perhatikan perkembangan anak dan lakukan skrining rutin sesuai jadwal.'
+        explanation: 'Jika anak lebih muda dari 24 bulan, lakukan deteksi lagi setelah ulang tahun kedua. Tidak ada tindakan lanjutan yang diperlukan, kecuali pemantauan rutin perkembangan anak.',
+        note: 'Tetap perhatikan perkembangan anak dan lakukan deteksi rutin sesuai jadwal.'
       }
     case 'medium':
       return {
         title: 'Risiko Sedang (Skor 3-7)',
-        explanation: 'Perlu dilakukan Follow-up (M-CHAT-R/F tahap kedua) untuk mendapat informasi tambahan tentang respon berisiko.',
-        note: 'Jika skor Follow-up ≥ 2: Rujuk untuk evaluasi diagnostik dan evaluasi eligibilitas intervensi dini.\nJika skor Follow-up 0-1: Tidak perlu tindakan lanjut, lakukan skrining ulang saat kunjungan berikutnya.'
+        explanation: 'Perlu dilakukan Follow-up (tahap kedua) untuk mendapat informasi tambahan tentang perilaku berisiko.',
+        note: 'Jika skor Follow-up ≥ 2: Rujuk untuk evaluasi diagnostik dan evaluasi eligibilitas intervensi dini.\nJika skor Follow-up 0-1: Tidak perlu tindakan lanjut, lakukan deteksi ulang saat kunjungan berikutnya.'
       }
     case 'high':
       return {
         title: 'Risiko Tinggi (Skor 8-20)',
-        explanation: 'Follow-up dapat tidak dilakukan dan pasien dirujuk segera untuk evaluasi diagnostik dan evaluasi eligibilitas untuk intervensi dini.',
+        explanation: 'Follow-up dapat tidak dilakukan dan disarankan untuk segera melakukan konsultasi untuk evaluasi diagnostik dan evaluasi eligibilitas untuk intervensi dini.',
         note: 'Segera konsultasikan dengan dokter spesialis anak atau psikiater anak untuk evaluasi lebih lanjut.'
       }
     default:
       return {
         title: 'Tidak dapat menentukan risiko',
         explanation: 'Terjadi kesalahan dalam perhitungan skor.',
-        note: 'Silakan ulangi skrining atau hubungi administrator.'
+        note: 'Silakan ulangi deteksi atau hubungi administrator.'
       }
   }
 }
@@ -70,7 +70,7 @@ export default function Result() {
   return (
     <div className="min-h-screen">
       <Head>
-        <title>Hasil Skrining M-CHAT-R{isFollowUp ? '/F' : ''}</title>
+        <title>EarlyDetect - Hasil Deteksi Dini{isFollowUp ? ' (Follow-Up)' : ''}</title>
       </Head>
 
       <main className="container py-12">
@@ -78,7 +78,7 @@ export default function Result() {
           <div className="bg-white rounded-xl shadow-lg overflow-hidden">
             <div className="p-8">
               <h1 className="text-3xl font-bold text-center text-gray-800 mb-8">
-                Hasil Skrining {isFollowUp ? 'M-CHAT-R/F' : 'M-CHAT-R'}
+                Hasil Deteksi Dini{isFollowUp ? ' (Follow-Up)' : ''}
               </h1>
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -116,7 +116,7 @@ export default function Result() {
                 <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-lg">
                   <p className="text-yellow-800">
                     <strong className="block mb-2">Perhatian:</strong>
-                    Hasil skrining ini bukan diagnosis. Skrining ini hanya alat bantu untuk mendeteksi risiko awal ASD. 
+                    Hasil deteksi ini bukan diagnosis. Deteksi ini hanya alat bantu untuk mendeteksi risiko awal ASD. 
                     Diagnosis resmi hanya dapat dilakukan oleh profesional kesehatan yang berkualifikasi.
                   </p>
                 </div>

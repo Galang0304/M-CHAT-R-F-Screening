@@ -4,14 +4,14 @@ export default function About() {
   return (
     <div className="min-h-screen">
       <Head>
-        <title>Tentang M-CHAT-R/F</title>
+        <title>Tentang EarlyDetect</title>
       </Head>
 
       <main className="container py-12">
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-lg shadow-lg p-8">
             <h1 className="text-3xl font-bold text-center mb-4">
-              PENGEMBANGAN VIDEO EDUKASI PENCEGAHAN DAN DETEKSI DINI AUTISME BAGI ORANG TUA
+              EarlyDetect – Fokus pada deteksi dini autisme
             </h1>
             <div className="w-32 h-1 bg-primary mx-auto mb-8"></div>
 
@@ -19,24 +19,22 @@ export default function About() {
               <section>
                 <h2 className="text-2xl font-semibold mb-4">Tentang Penelitian</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  Penelitian ini bertujuan untuk mengembangkan media edukasi berbasis video
+                  Penelitian ini bertujuan untuk mengembangkan platform deteksi dini berbasis web
                   yang dapat membantu orang tua dalam memahami, mencegah, dan mendeteksi
-                  secara dini gejala autisme pada anak. Salah satu tools yang digunakan
-                  dalam penelitian ini adalah M-CHAT-R/F (Modified Checklist for Autism in
-                  Toddlers, Revised with Follow-Up).
+                  secara dini gejala autisme pada anak. Platform ini menggunakan metodologi yang
+                  telah tervalidasi secara ilmiah untuk memberikan hasil yang akurat.
                 </p>
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold mb-4">Apa itu M-CHAT-R/F?</h2>
+                <h2 className="text-2xl font-semibold mb-4">Apa itu EarlyDetect?</h2>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Modified Checklist for Autism in Toddlers, Revised with Follow-Up (M-CHAT-R/F) 
-                  adalah alat skrining yang divalidasi untuk mengevaluasi risiko Autism Spectrum 
-                  Disorder (ASD) pada anak usia 16-30 bulan.
+                  EarlyDetect adalah platform deteksi dini yang inovatif, dirancang khusus untuk 
+                  mengevaluasi risiko Autism Spectrum Disorder (ASD) pada anak usia 16-30 bulan.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  Alat skrining ini telah terbukti efektif dalam mengidentifikasi tanda-tanda 
-                  awal ASD, memungkinkan intervensi dini yang dapat sangat mempengaruhi 
+                  Platform ini menggunakan pendekatan yang telah terbukti efektif dalam mengidentifikasi 
+                  tanda-tanda awal ASD, memungkinkan intervensi dini yang dapat sangat mempengaruhi 
                   perkembangan anak.
                 </p>
               </section>

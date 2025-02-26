@@ -145,14 +145,14 @@ export default function FollowUp() {
   return (
     <div className="min-h-screen">
       <Head>
-        <title>Follow-Up M-CHAT-R/F</title>
+        <title>EarlyDetect - Follow-Up Deteksi Dini</title>
       </Head>
 
       <main className="container py-12">
         <div className="max-w-3xl mx-auto">
           <div className="bg-white rounded-lg shadow-lg p-8">
             <h1 className="text-2xl font-bold text-center mb-8">
-              Follow-Up M-CHAT-R/F
+              Follow-Up Deteksi Dini
             </h1>
 
             <div className="mb-8">

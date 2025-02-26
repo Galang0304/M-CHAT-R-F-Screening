@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <Head>
-        <title>M-CHAT-R/F Autism Screening</title>
-        <meta name="description" content="Alat skrining autism untuk balita menggunakan M-CHAT-R/F" />
+        <title>EarlyDetect – Fokus pada deteksi dini autisme</title>
+        <meta name="description" content="Platform deteksi dini autisme menggunakan M-CHAT-R/F" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -14,22 +14,21 @@ export default function Home() {
         <div className="text-center">
           <div className="max-w-4xl mx-auto mb-12">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              PENGEMBANGAN VIDEO EDUKASI PENCEGAHAN DAN DETEKSI DINI AUTISME BAGI ORANG TUA
+              EarlyDetect – Fokus pada deteksi dini autisme
             </h1>
             <div className="w-32 h-1 bg-primary mx-auto mb-8"></div>
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-              M-CHAT-R/F Autism Screening
+              Deteksi Dini Autisme
             </h2>
             <p className="text-xl text-gray-600">
-              Alat skrining autism untuk balita usia 16-30 bulan
+              Alat deteksi dini autisme untuk balita usia 16-30 bulan
             </p>
           </div>
           
           <div className="max-w-3xl mx-auto bg-white rounded-xl shadow-lg p-8 mb-8">
-            <h2 className="text-2xl font-semibold mb-6">Tentang M-CHAT-R/F</h2>
+            <h2 className="text-2xl font-semibold mb-6">Tentang EarlyDetect</h2>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Modified Checklist for Autism in Toddlers, Revised with Follow-Up (M-CHAT-R/F) 
-              adalah alat skrining yang divalidasi untuk mengevaluasi risiko Autism Spectrum Disorder (ASD) 
+              EarlyDetect adalah platform deteksi dini yang divalidasi untuk mengevaluasi risiko Autism Spectrum Disorder (ASD) 
               pada anak usia 16-30 bulan.
             </p>
             <p className="text-gray-600 mb-6 leading-relaxed">
@@ -77,7 +76,7 @@ export default function Home() {
 
           <Link href="/quiz" className="inline-block">
             <button className="btn-primary text-lg px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
-              Mulai Skrining
+              Mulai Deteksi
             </button>
           </Link>
         </div>
