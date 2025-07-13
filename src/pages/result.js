@@ -70,7 +70,7 @@ export default function Result() {
   return (
     <div className="min-h-screen">
       <Head>
-        <title>EarlyDetect - Hasil Deteksi Dini{isFollowUp ? ' (Follow-Up)' : ''}</title>
+        <title>I will chat you - Hasil Deteksi Dini{isFollowUp ? ' (Follow-Up)' : ''}</title>
       </Head>
 
       <main className="container py-12">

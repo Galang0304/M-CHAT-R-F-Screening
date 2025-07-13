@@ -4,14 +4,14 @@ export default function About() {
   return (
     <div className="min-h-screen">
       <Head>
-        <title>Tentang EarlyDetect</title>
+        <title>Tentang I will chat you</title>
       </Head>
 
       <main className="container py-12">
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-lg shadow-lg p-8">
             <h1 className="text-3xl font-bold text-center mb-4">
-              EarlyDetect – Fokus pada deteksi dini autisme
+              I will chat you – Fokus pada deteksi dini autisme
             </h1>
             <div className="w-32 h-1 bg-primary mx-auto mb-8"></div>
 
@@ -27,9 +27,9 @@ export default function About() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-semibold mb-4">Apa itu EarlyDetect?</h2>
+                <h2 className="text-2xl font-semibold mb-4">Apa itu I will chat you?</h2>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  EarlyDetect adalah platform deteksi dini yang inovatif, dirancang khusus untuk 
+                  I will chat you adalah platform deteksi dini yang inovatif, dirancang khusus untuk 
                   mengevaluasi risiko Autism Spectrum Disorder (ASD) pada anak usia 16-30 bulan.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
