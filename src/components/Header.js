@@ -6,7 +6,7 @@ export default function Header() {
       <div className="container mx-auto px-4 py-6">
         <nav className="flex justify-between items-center">
           <Link href="/" className="text-xl font-bold text-primary">
-            I will chat you
+            I Will CHAT You
           </Link>
           
           <div className="flex gap-4">

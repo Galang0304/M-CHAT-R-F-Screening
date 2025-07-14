@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <Head>
-        <title>I will chat you – Fokus pada deteksi dini autisme</title>
+        <title>I Will CHAT You – Fokus pada deteksi dini autisme</title>
         <meta name="description" content="Platform deteksi dini autisme menggunakan M-CHAT-R/F" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -14,7 +14,7 @@ export default function Home() {
         <div className="text-center">
           <div className="max-w-4xl mx-auto mb-12">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              I will chat you – Fokus pada deteksi dini autisme
+              I Will CHAT You – Fokus pada deteksi dini autisme
             </h1>
             <div className="w-32 h-1 bg-primary mx-auto mb-8"></div>
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">
@@ -26,9 +26,9 @@ export default function Home() {
           </div>
           
           <div className="max-w-3xl mx-auto bg-white rounded-xl shadow-lg p-8 mb-8">
-            <h2 className="text-2xl font-semibold mb-6">Tentang I will chat you</h2>
+            <h2 className="text-2xl font-semibold mb-6">Tentang I Will CHAT You</h2>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              I will chat you adalah platform deteksi dini yang divalidasi untuk mengevaluasi risiko Autism Spectrum Disorder (ASD) 
+              I Will CHAT You adalah platform deteksi dini yang divalidasi untuk mengevaluasi risiko Autism Spectrum Disorder (ASD) 
               pada anak usia 16-30 bulan.
             </p>
             <p className="text-gray-600 mb-6 leading-relaxed">

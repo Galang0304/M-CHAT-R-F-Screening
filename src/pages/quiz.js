@@ -29,7 +29,7 @@ export default function Quiz() {
   return (
     <div className="min-h-screen">
       <Head>
-        <title>I will chat you - Kuis Deteksi Dini (Pertanyaan {currentQuestion + 1})</title>
+        <title>I Will CHAT You - Kuis Deteksi Dini (Pertanyaan {currentQuestion + 1})</title>
       </Head>
 
       <main className="container py-12">
